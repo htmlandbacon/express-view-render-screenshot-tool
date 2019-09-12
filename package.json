@@ -1,0 +1,23 @@
+{
+  "name": "express-view-render-screenshot-tool",
+  "version": "1.0.0",
+  "description": "This is meant to sit aside a prototype - it will get all the .html files in a folder (with sub folders), convert them to urls and take a screenshot of them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htmlandbacon/express-view-render-screenshot-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htmlandbacon/express-view-render-screenshot-tool/issues"
+  },
+  "homepage": "https://github.com/htmlandbacon/express-view-render-screenshot-tool#readme",
+  "dependencies": {
+    "puppeteer": "^1.19.0",
+    "recursive-readdir": "^2.2.2"
+  }
+}
